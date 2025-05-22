@@ -177,8 +177,8 @@ class Downloader:
         # Clean up album tags and add special explicit and additional formats
         album_tags = {k: sanitise_name(v) for k, v in asdict(album_info).items()}
         album_tags['id'] = str(album_id)
-        album_tags['quality'] = f' [{album_info.quality}]' if album_info.quality else ''
-        album_tags['explicit'] = ' [E]' if album_info.explicit else ''
+        album_tags['quality'] = f'{album_info.quality}' if album_info.quality else ''
+        album_tags['explicit'] = 'E' if album_info.explicit else ''
         album_tags['artist_initials'] = self._get_artist_initials_from_name(album_info)
 
         album_path = path + self.global_settings['formatting']['album_format'].format(**album_tags)
