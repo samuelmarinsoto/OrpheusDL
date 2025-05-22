@@ -1,0 +1,6 @@
+[submodule "modules/beatport"]
+	path = modules/beatport
+	url = https://github.com/samuelmarinsoto/orpheusdl-beatport
+[submodule "modules/qobuz"]
+	path = modules/qobuz
+	url = https://github.com/samuelmarinsoto/orpheusdl-qobuz
