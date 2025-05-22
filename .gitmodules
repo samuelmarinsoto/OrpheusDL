@@ -4,3 +4,27 @@
 [submodule "modules/qobuz"]
 	path = modules/qobuz
 	url = https://github.com/samuelmarinsoto/orpheusdl-qobuz
+[submodule "modules/bugs"]
+	path = modules/bugs
+	url = https://github.com/Dniel97/orpheusdl-bugsmusic
+[submodule "modules/idagio"]
+	path = modules/idagio
+	url = https://github.com/Dniel97/orpheusdl-idagio
+[submodule "modules/jiosaavn"]
+	path = modules/jiosaavn
+	url = https://github.com/bunnykek/orpheusdl-jiosaavn
+[submodule "modules/kkbox"]
+	path = modules/kkbox
+	url = https://github.com/uhwot/orpheusdl-kkbox
+[submodule "modules/napster"]
+	path = modules/napster
+	url = https://github.com/OrfiDev/orpheusdl-napster
+[submodule "modules/nugs"]
+	path = modules/nugs
+	url = https://github.com/Dniel97/orpheusdl-nugs
+[submodule "modules/soundcloud"]
+	path = modules/soundcloud
+	url = https://github.com/OrfiDev/orpheusdl-soundcloud
+[submodule "modules/tidal"]
+	path = modules/tidal
+	url = https://github.com/Dniel97/orpheusdl-tidal
