@@ -28,3 +28,6 @@
 [submodule "modules/tidal"]
 	path = modules/tidal
 	url = https://github.com/samuelmarinsoto/orpheusdl-tidal
+[submodule "modules/deezer"]
+	path = modules/deezer
+	url = https://github.com/samuelmarinsoto/orpheusdl-deezer
